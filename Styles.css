@@ -1,0 +1,39 @@
+/*   
+
+selector{
+  property:valure;
+    property:valure;
+    property:valure;
+}
+
+
+tagname -> select all tags of a given tpe
+.classname -> slect all tags that have a given class
+tagname.classname -> slect only tags that are ALSO a given class
+
+    > -> child symbol
+
+    tagname>tagname -> select children of given type
+    .classname>tagname -> select children of a given type
+    tagname> .classname -> select children of a given class
+    .classname> .classname -> select children of given class
+
+*/
+.nav {
+    border-style: dotted ;
+
+    width: 50%;
+    margin: auto;
+    padding-left: 0%;
+
+    list-style: none;
+    text-align: center;
+    text-decoration: wavy;
+    
+}
+
+.nav>li {
+    border-style: outset;
+    display: inline-block;
+}
+ 
